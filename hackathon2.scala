@@ -12,7 +12,7 @@ import java.sql.Date
 //For persist Storage
 import org.apache.spark.storage._
 
-object hackathon2 {
+object hackathon {
   
   case class insureclass(IssuerId:String,IssuerId2:String,BusinessDate:String,StateCode:String,SourceName:String,
       NetworkName:String,NetwrokURL:String,custnum:String,MarketCoverage:String,DentalOnlyPlan:String)
